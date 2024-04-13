@@ -10,7 +10,6 @@ mi_diccionario = {}
 import os
 
 sw = True
-N_dspacho = 0
 def fnt_agregar(diccionario,nombre,direccion,contacto,sexo,descripcion_casa):
     if   nombre == ''or direccion == ''or contacto == ''or sexo == '' or descripcion_casa == '':
         enter = input('Debe diligenciar toda la información solicitada <ENTER>')
